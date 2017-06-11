@@ -27,12 +27,12 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       tabsetPanel(
-        tabPanel("2D", 
+        tabPanel("Boynton-MacLeod diagram", 
                  plotlyOutput("boynton_macleod2D"),
                  h3("Boynton-MacLeod diagram:"),
                  p("The point shows the selected color in the Boynton-MacLeod diagram. The x-axis shows the excitation of the long-wavelength-sensitivie cones (L-cone or \'red cones\') and the y-axis that of the short-wavelength-sensitive cones (S-cone or \'blue cones\'). Both axes are divided by the sum of the excitation of the L- and M-cones. The red triangle shows the colors that can created in the RGB space, and the blue points represent the spectral colors.")
         ),
-        tabPanel("3D", 
+        tabPanel("LMS color space", 
                  plotlyOutput("boynton_macleod"),
                  h3("Cone color space:"),
                  p("This diagram shows how the Boynton-MacLeod diagram is derived. It represents the cone color space. The gray area is the Boynton-MacLeod diagram, and the green line represents There are three points on the orange line, which show the origin the selected color in the cone color space and the intercept of the line through these points with the plane that is shown in the Bonyton-MacLeod diagram.")
