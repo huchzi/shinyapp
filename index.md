@@ -30,6 +30,21 @@ Methods used for creating the app
 - Plotly
 - GGplot
 - Plyr and dplyr
+- R presenter for creating this presentation
+
+By the way: we need to include some R code!
+
+
+```r
+three <- 1 + 2
+
+print(three)
+```
+
+```
+[1] 3
+```
+
 
 Who can use the app?
 ========================================================
@@ -42,4 +57,6 @@ Where is the app found?
 ========================================================
 
 - You can download the source code from github and run the app if you have R, Rstudio and the necessary libraries installed on your PC.
-- You can run the app on shinyapps.io.
+- You can run the app on shinyapps.io:
+
+https://huchzi.shinyapps.io/boyntonmacleoddiagram/
